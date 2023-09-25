@@ -1,0 +1,19 @@
+{
+  "name": "trpo-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "cypress run --reporter cypress-mochawesome-reporter -b chrome --headed -s './cypress/e2e/LoginTest.cy.js'",
+    "test-firefox": "cypress run -b chrome --headed -s './cypress/e2e/LoginTest.cy.js'",
+    "test-electron": "cypress run -b chrome --headed -s './cypress/e2e/LoginTest.cy.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "xpath_cypress": "^1.0.2"
+  }
+}

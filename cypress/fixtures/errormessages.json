@@ -1,0 +1,5 @@
+{
+  "invalidErrormessage": "Invalid credentials",
+  "emailErrormessage": "Email is required",
+  "passwordErrorMessage": " Password is required"
+}
