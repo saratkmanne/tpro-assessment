@@ -19,14 +19,13 @@ Before running the Cypress tests, ensure you have the following dependencies ins
 
 2. Change directory to the project directory
 
-```
 cd project root
 
 3. install the project dependencies
 
 ```
-
 npm install
+```
 
 4. To open testrunner, run the following command
 
